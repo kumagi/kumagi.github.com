@@ -1,0 +1,4 @@
+.DEFAULT:index.html
+
+index.html:index.haml
+	haml $< $@ --format html5
